@@ -2,8 +2,8 @@ package practice1.min.impl;
 
 import practice1.min.Finder;
 
-import static practice1.min.common.Sleeper.sleep;
-import static practice1.min.common.Validator.validate;
+import static practice1.common.Sleeper.sleep;
+import static practice1.common.Validator.validate;
 
 public class SyncFinder implements Finder {
     private final int[] nums;

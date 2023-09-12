@@ -1,4 +1,4 @@
-package practice1.min.common;
+package practice1.common;
 
 public class Sleeper {
     public static void sleep(int millis) {

@@ -1,6 +1,6 @@
 package practice1.reader;
 
-import practice1.min.common.Sleeper;
+import practice1.common.Sleeper;
 
 import java.util.Random;
 import java.util.concurrent.Callable;

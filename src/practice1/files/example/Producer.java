@@ -1,6 +1,6 @@
 package practice1.files.example;
 
-import practice1.min.common.Sleeper;
+import practice1.common.Sleeper;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
