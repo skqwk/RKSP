@@ -1,8 +1,8 @@
 package practice1.min;
 
-import practice1.min.impl.forkjoin.ForkJoinFinder;
 import practice1.min.impl.SyncFinder;
 import practice1.min.impl.ThreadFinder;
+import practice1.min.impl.forkjoin.ForkJoinFinder;
 
 import java.util.Arrays;
 import java.util.Random;

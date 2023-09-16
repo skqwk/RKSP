@@ -1,7 +1,7 @@
 package practice1.min.impl.forkjoin;
 
-import practice1.min.impl.SyncFinder;
 import practice1.common.Validator;
+import practice1.min.impl.SyncFinder;
 
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;

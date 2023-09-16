@@ -29,6 +29,6 @@ bin/
 .DS_Store
 
 ### Another files ###
-*.xml
 *.json
 *.txt
+target
