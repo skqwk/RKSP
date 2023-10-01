@@ -7,6 +7,7 @@ import practice1.common.Sleeper;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
@@ -19,7 +20,7 @@ public class FilesTest {
 
     public static void main(String[] args) throws InterruptedException {
         AtomicInteger amount = new AtomicInteger(10);
-        CountDownLatch latch = new CountDownLatch(9);
+        CountDownLatch latch = new CountDownLatch(10);
 
         BlockingQueue<File> queue = new LinkedBlockingQueue<>(5);
         ConnectableObservable<File> repeatGenerator = createRepeatGenerator(amount, queue);
@@ -31,8 +32,9 @@ public class FilesTest {
         // main разблокируется
         Consumer<File> simpleConsumer = file -> {
             latch.countDown();
+            String threadName = Thread.currentThread().getName();
             Sleeper.sleep(file.getSize() * 7);
-            System.out.printf("Обработал файл - %s, с типом - %s\n", file.getNumber(), file.getType().name());
+            System.out.printf("%s: Обработал файл - %s, с типом - %s\n", threadName, file.getNumber(), file.getType().name());
         };
 
         publisher.subscribe(ifThen(file -> file.getType() == FileType.XML, simpleConsumer)::accept);

@@ -11,14 +11,14 @@ public class RandomMapReduceTest {
     private static final Random RANDOM = new Random();
 
     public static void main(String[] args) {
-        // 2.1.3
-        // countRandom();
+//         2.1.3
+//         countRandom();
 
         // 2.2.3
-        // parallelProcess();
+//         parallelProcess();
 
         // 2.3.3
-        // latest();
+         latest();
     }
 
     /**
