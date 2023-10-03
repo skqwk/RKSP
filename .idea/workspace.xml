@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb058316-2e56-44a5-a235-6896744e2191" name="Changes" comment="PR-3: Правки по 3ей практике">
+      <change afterPath="$PROJECT_DIR$/rsocket-common/src/main/java/com/example/rsocketcommon/AuthRq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsocket-common/src/main/java/com/example/rsocketcommon/LoginRs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsocket-common/src/main/java/com/example/rsocketcommon/MessageRq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsocket-common/src/main/java/com/example/rsocketcommon/MessageRs.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/practice1/files/FileProcessor.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2V2FF57vmjtBw9DbyFD3IXYbniH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/semen/studentship/Студенчество/Семестр 7/РКСП/example/pr4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b69f22dffc504629e8d674d8ae92918a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Stand">
+    <configuration name="FileGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice1.files.FileGenerator" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice1.files.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice1.min.FinderTest" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice1.min.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice2.nio.NIOReader" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice2.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice1.files.Sandbox" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice1.files.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice1.files.example.Stand" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice1.files.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="homework" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RsocketClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rsocket-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rsocketclient.RsocketClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Stand" />
+        <item itemvalue="Application.Sandbox" />
+        <item itemvalue="Application.NIOReader" />
+        <item itemvalue="Application.FinderTest" />
+        <item itemvalue="Application.FileGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb058316-2e56-44a5-a235-6896744e2191" name="Changes" comment="" />
+      <created>1694026163149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694026163149</updated>
+      <workItem from="1694026164356" duration="8697000" />
+      <workItem from="1694057781897" duration="3418000" />
+      <workItem from="1694066033557" duration="4194000" />
+      <workItem from="1694102715483" duration="569000" />
+      <workItem from="1694103297945" duration="32000" />
+      <workItem from="1694103363899" duration="191000" />
+      <workItem from="1694103760621" duration="3086000" />
+      <workItem from="1694184489314" duration="151000" />
+      <workItem from="1694240424590" duration="6230000" />
+      <workItem from="1694457097281" duration="596000" />
+      <workItem from="1694491858633" duration="1668000" />
+      <workItem from="1694632111718" duration="1159000" />
+      <workItem from="1694836391357" duration="2533000" />
+      <workItem from="1694845709534" duration="12749000" />
+      <workItem from="1695105694878" duration="1609000" />
+      <workItem from="1695111380684" duration="908000" />
+      <workItem from="1695143229453" duration="6077000" />
+      <workItem from="1695184977110" duration="6111000" />
+      <workItem from="1695416136985" duration="10476000" />
+      <workItem from="1695441412129" duration="3581000" />
+      <workItem from="1695757563616" duration="598000" />
+      <workItem from="1695815671434" duration="647000" />
+      <workItem from="1695818260070" duration="1481000" />
+      <workItem from="1695841241641" duration="2000" />
+      <workItem from="1696179252703" duration="446000" />
+      <workItem from="1696182287241" duration="112000" />
+      <workItem from="1696182410197" duration="1228000" />
+      <workItem from="1696265916640" duration="79000" />
+    </task>
+    <task id="LOCAL-00001" summary="PR-1: Первая практическая работа">
+      <option name="closed" value="true" />
+      <created>1694492479509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694492479509</updated>
+    </task>
+    <task id="LOCAL-00002" summary="PR-1: Перенес пакет common в корень">
+      <option name="closed" value="true" />
+      <created>1694492948372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694492948372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="PR-2: Добавил решения по второй практической работе">
+      <option name="closed" value="true" />
+      <created>1694866948201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694866948201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PR-3: Добавил решения по третьей практической работе">
+      <option name="closed" value="true" />
+      <created>1695443429870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695443429870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PR-3: Правки по 3ей практике">
+      <option name="closed" value="true" />
+      <created>1696179285740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696179285740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PR-1: Первая практическая работа" />
+    <MESSAGE value="PR-1: Перенес пакет common в корень" />
+    <MESSAGE value="PR-2: Добавил решения по второй практической работе" />
+    <MESSAGE value="PR-3: Добавил решения по третьей практической работе" />
+    <MESSAGE value="PR-3: Правки по 3ей практике" />
+    <option name="LAST_COMMIT_MESSAGE" value="PR-3: Правки по 3ей практике" />
+  </component>
+</project>
