@@ -1,11 +1,10 @@
 package ru.skqwk.indicatorserver.entity;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import reactor.core.publisher.Flux;
 
-import java.util.List;
 import java.util.UUID;
 
-public interface MetricsRepo extends JpaRepository<Metrics, UUID> {
-    List<Metrics> findAllByIndicator_Uuid(UUID indicatorUuid);
-    List<Metrics> findAllByIndicator_Type(String type);
+public interface MetricsRepo extends ReactiveCrudRepository<Metrics, UUID> {
+    Flux<Metrics> findMetricsByType(String type);
 }

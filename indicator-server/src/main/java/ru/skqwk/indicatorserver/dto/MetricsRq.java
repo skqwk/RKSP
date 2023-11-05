@@ -1,4 +1,6 @@
 package ru.skqwk.indicatorserver.dto;
 
-public record MetricsRq(String type, String value) {
+public record MetricsRq(String indicatorName,
+                        String type,
+                        String value) {
 }

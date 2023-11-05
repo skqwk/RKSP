@@ -1,15 +1,16 @@
 package ru.skqwk.indicatorserver.entity;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 
 import java.time.Instant;
 import java.util.UUID;
 
-@Entity
 @Getter
 @Builder
 @NoArgsConstructor
@@ -17,27 +18,30 @@ import java.util.UUID;
 @Table(name = "T_METRICS")
 public class Metrics {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID uuid;
+    @Column("C_ID")
+    private UUID id;
 
     /**
      * Индикатор
      */
-    @ManyToOne
-    private Indicator indicator;
+    @Column("C_INDICATOR")
+    private String indicator;
 
     /**
      * Тип метрики
      */
+    @Column("C_TYPE")
     private String type;
 
     /**
      * Значение метрики
      */
+    @Column("C_VALUE")
     private String value;
 
     /**
      * Время сохранения
      */
+    @Column("C_RECORDED_AT")
     private Instant recordedAt;
 }
